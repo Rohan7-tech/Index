@@ -1,0 +1,140 @@
+body{
+	background:#191d28;
+}
+span{
+	font-size:20px;
+	
+	
+}
+h1{
+	padding-left:30px;
+	padding-top:40px;
+	text-shadow: 2px 1px 1px black;
+	font-size:50px;
+	letter-spacing:-1px;
+}
+h5{
+	padding-left:30px;
+	font-size:20px;
+	letter-spacing: -1.5px;
+}
+.btn-group{
+	margin-top: -150px;
+	padding-left:650px;
+}
+#ab{
+	margin-top:-150px;
+	margin-left:650px;
+}
+#cd{
+margin-top:-150px;
+	margin-left: 20px;
+	
+}
+.numberCircle {
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #00ffff;
+	margin-left:1100px;
+	margin-top: -105px;
+}
+#hjk{
+  margin-left:1190px;
+  margin-top:-75px;
+   background-color:#17a2b8;
+}
+#abcd{
+	margin-left:1220px;
+	margin-top:-105px;
+	
+	
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #00ffff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: white;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px white;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+#asd{
+    margin-left: 1380px;
+	margin-top: -65px;
+}
+#qwe{
+	margin-top:100px;
+	margin-left:30px;
+	margin-right:80px;
+}
+#er{
+   color:grey;
+   letter-spacing:-1px; 	
+   font-weight: bold;
+    font-size:20px;
+}
+
+
+#fgh{
+	background:#343a40;
+	color:white;
+	font-weight: bold;
+	font-family:Oswald,sans-serif;
+	font-size:20px;
+}
+

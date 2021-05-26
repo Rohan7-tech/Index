@@ -1,0 +1,128 @@
+<%- include('partials/header.ejs')%>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="/public/assets/styles.css" rel="stylesheet" type="text/css">
+<div class="thumbnail">
+<h1 class="text-info font-weight-normal">
+	HODLINFO<span class="text-white" "text-lowercase"> .com</span>
+</h1>
+	
+<h5 class="text-muted">
+	Powered By <span  class="text-info font-weight-normal">Finstreet</span>
+</h5>
+	<div class="dropdown">
+	<button id="ab" type="button" class="btn btn-secondary dropdown-toggle" >
+		INR
+	</button>
+	<button id="cd" type="button" class="btn btn-secondary dropdown-toggle" >
+		BTC
+	</button>
+     <div class=" text-info numberCircle">58</div>
+	<a  id="hjk" class="btn btn-lg btn-info" href="/"><i class="fab fa-telegram-plane"></i>           Telegram</a>
+	<div id="asd">
+	<label class="switch">
+  <input  type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+	</div>
+	<div class="wer" id="qwe">
+	<table class="table table-borderless">
+  
+    <tr id="er">
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Last</th>
+      <th scope="col">Buy/Sell Price</th>
+		 <th scope="col">volume</th>
+		 <th scope="col">base_unit</th>
+		
+    </tr>
+  
+  
+	  
+    <tr id="fgh">
+      <td>1</td>
+      <td><%=data["btcinr"]["name"]%></td>
+      <td>₹<%=data["btcinr"]["last"]%></td>
+      <td>₹<%=data["btcinr"]["buy"]%><span>/</span>₹<%=data["btcinr"]["sell"]%></td>
+	  <td><%=data["btcinr"]["volume"]%></td>
+		<td><%=data["btcinr"]["base_unit"]%></td>
+	  </tr>
+	   <tr id="fgh">
+      <td>2</td>
+      <td><%=data["xrpinr"]["name"]%></td>
+      <td>₹<%=data["xrpinr"]["last"]%></td>
+      <td>₹<%=data["xrpinr"]["buy"]%><span>/</span>₹<%=data["xrpinr"]["sell"]%></td>
+	  <td><%=data["xrpinr"]["volume"]%></td>
+		<td><%=data["xrpinr"]["base_unit"]%></td>
+	  </tr>
+	    <tr id="fgh">
+      <td>3</td>
+      <td><%=data["trxinr"]["name"]%></td>
+      <td>₹<%=data["trxinr"]["last"]%></td>
+      <td>₹<%=data["trxinr"]["buy"]%><span>/</span>₹<%=data["trxinr"]["sell"]%></td>
+	  <td><%=data["trxinr"]["volume"]%></td>
+		<td><%=data["trxinr"]["base_unit"]%></td>
+	  </tr>
+	    <tr id="fgh">
+      <td>4</td>
+      <td><%=data["eosinr"]["name"]%></td>
+      <td>₹<%=data["eosinr"]["last"]%></td>
+      <td>₹<%=data["eosinr"]["buy"]%><span>/</span>₹<%=data["eosinr"]["sell"]%></td>
+	  <td><%=data["eosinr"]["volume"]%></td>
+		<td><%=data["eosinr"]["base_unit"]%></td>
+	  </tr>
+	    <tr id="fgh">
+      <td>5</td>
+      <td><%=data["zilinr"]["name"]%></td>
+      <td>₹<%=data["zilinr"]["last"]%></td>
+      <td>₹<%=data["zilinr"]["buy"]%><span>/</span>₹<%=data["zilinr"]["sell"]%></td>
+	  <td><%=data["zilinr"]["volume"]%></td>
+		<td><%=data["zilinr"]["base_unit"]%></td>
+	  </tr>
+	    <tr id="fgh">
+      <td>6</td>
+      <td><%=data["batinr"]["name"]%></td>
+      <td>₹<%=data["batinr"]["last"]%></td>
+      <td>₹<%=data["batinr"]["buy"]%><span>/</span>₹<%=data["batinr"]["sell"]%></td>
+	  <td><%=data["batinr"]["volume"]%></td>
+		<td><%=data["batinr"]["base_unit"]%></td>
+	  </tr>
+	    <tr id="fgh">
+      <td>7</td>
+      <td><%=data["zrxinr"]["name"]%></td>
+      <td>₹<%=data["zrxinr"]["last"]%></td>
+      <td>₹<%=data["zrxinr"]["buy"]%><span>/</span>₹<%=data["zrxinr"]["sell"]%></td>
+	  <td><%=data["zrxinr"]["volume"]%></td>
+		<td><%=data["zrxinr"]["base_unit"]%></td>
+	  </tr>
+	    <tr id="fgh">
+      <td>8</td>
+      <td><%=data["omginr"]["name"]%></td>
+      <td>₹<%=data["omginr"]["last"]%></td>
+      <td>₹<%=data["omginr"]["buy"]%><span>/</span>₹<%=data["omginr"]["sell"]%></td>
+	  <td><%=data["omginr"]["volume"]%></td>
+		<td><%=data["omginr"]["base_unit"]%></td>
+	  </tr>
+	    <tr id="fgh">
+      <td>9</td>
+      <td><%=data["iostinr"]["name"]%></td>
+      <td>₹<%=data["iostinr"]["last"]%></td>
+      <td>₹<%=data["iostinr"]["buy"]%><span>/</span>₹<%=data["iostinr"]["sell"]%></td>
+	  <td><%=data["iostinr"]["volume"]%></td>
+		<td><%=data["iostinr"]["base_unit"]%></td>
+	  </tr>
+	    <tr id="fgh">
+      <td>10</td>
+      <td><%=data["dentinr"]["name"]%></td>
+      <td>₹<%=data["dentinr"]["last"]%></td>
+      <td>₹<%=data["dentinr"]["buy"]%><span>/</span>₹<%=data["dentinr"]["sell"]%></td>
+	  <td><%=data["dentinr"]["volume"]%></td>
+		<td><%=data["dentinr"]["base_unit"]%></td>
+	  </tr>
+	  
+</table>
+	</div>
+</div>
+
+<%- include('partials/footer.ejs')%>
